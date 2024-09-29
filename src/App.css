@@ -1,0 +1,36 @@
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.usernamePassword {
+  margin-bottom: 1em;;
+}
+
+.authenticationToken {
+  text-align:center;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-wrap: wrap;
+
+}
+
+@media (max-width:600px) {
+  body {
+    display: flex;
+    flex-direction: column
+  }
+.username {
+  display: block;
+}
+.password {
+  display: block;
+}
+.usernameLabel {
+  margin-left: 1.2em;
+}
+
+.passwordLabel {
+  margin-left: 1.85em;
+}
+}
